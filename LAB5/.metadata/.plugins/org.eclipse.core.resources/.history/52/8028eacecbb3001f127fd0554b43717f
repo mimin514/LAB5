@@ -1,0 +1,20 @@
+/*
+ * fsm_cmd.h
+ *
+ *  Created on: Dec 6, 2024
+ *      Author: User
+ */
+
+#ifndef INC_FSM_CMD_H_
+#define INC_FSM_CMD_H_
+#define MAX_BUFFER_SIZE 30
+uint8_t temp = 0;
+uint8_t buffer[MAX_BUFFER_SIZE];
+extern uint8_t index_buffer = 0;
+externuint8_t buffer_flag = 0;
+extern uint8_t command_flag = 0; // 0: No command, 1: !RST#, 2: !OK#
+char response[30]; // Buffer to hold the response string
+
+void command_parser_fsm() ;
+
+#endif /* INC_FSM_CMD_H_ */

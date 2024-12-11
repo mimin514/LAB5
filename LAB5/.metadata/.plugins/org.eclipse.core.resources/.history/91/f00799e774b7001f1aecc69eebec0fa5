@@ -1,0 +1,16 @@
+/*
+ * fsm_cmd.h
+ *
+ *  Created on: Dec 6, 2024
+ *      Author: User
+ */
+
+#ifndef INC_FSM_CMD_H_
+#define INC_FSM_CMD_H_
+#define MAX_BUFFER_SIZE 30
+#include "main.h"
+
+ extern uint8_t command_flag = 0; // 0: No command, 1: !RST#, 2: !OK#
+
+void command_parser_fsm() ;
+#endif /* INC_FSM_CMD_H_ */
