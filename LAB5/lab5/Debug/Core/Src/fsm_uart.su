@@ -1,1 +1,2 @@
-../Core/Src/fsm_uart.c:14:6:uart_communiation_fsm	16	static
+../Core/Src/fsm_uart.c:15:6:uart_communiation_fsm	8	static
+../Core/Src/fsm_uart.c:48:6:run	8	static

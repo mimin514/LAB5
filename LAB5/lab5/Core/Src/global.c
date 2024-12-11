@@ -10,6 +10,7 @@
 
 ADC_HandleTypeDef hadc1;
 UART_HandleTypeDef huart2;
+TIM_HandleTypeDef htim2;
 
 uint8_t rx_data;
 uint8_t tx_data[50] = "START: !RST#\r\nEND: !OK#\r\n--------------------\r\n";

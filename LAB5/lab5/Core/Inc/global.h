@@ -14,6 +14,7 @@
 
 extern ADC_HandleTypeDef hadc1;
 extern UART_HandleTypeDef huart2;
+extern TIM_HandleTypeDef htim2;
 
 extern uint8_t rx_data;
 extern uint8_t tx_data[50];

@@ -9,5 +9,5 @@
 #define INC_FSM_UART_H_
 
 void uart_communiation_fsm() ;
-
+void run();
 #endif /* INC_FSM_UART_H_ */
