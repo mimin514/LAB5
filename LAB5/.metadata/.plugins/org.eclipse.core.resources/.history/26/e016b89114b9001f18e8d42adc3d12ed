@@ -113,7 +113,10 @@ int main(void)
 			buffer_flag = 0;
 		}
 		uart_communiation_fsm();
-
+		if (timer_flag[2] == 1){
+			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+			setTimer(2,1000);
+		 }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
